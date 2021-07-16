@@ -1,4 +1,5 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { AlurakutStyles } from '../src/components/lib/AluraCommons'
 
 const GlobalStyle = createGlobalStyle`
 
@@ -27,6 +28,7 @@ const GlobalStyle = createGlobalStyle`
     border-radius: 8px;
   }
 
+${AlurakutStyles}
 `
 
 const theme = {
