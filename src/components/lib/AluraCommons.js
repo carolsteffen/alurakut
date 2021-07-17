@@ -93,7 +93,7 @@ AlurakutMenu.Wrapper = styled.header`
     }
   }
   .container {
-    background-color: #308BC5;
+    background-color: black;
     padding: 7px 16px;
     max-width: 1110px;
     margin: auto;
@@ -126,10 +126,10 @@ AlurakutMenu.Wrapper = styled.header`
         text-decoration: none;
         &:after {
           content: " ";
-          background-color: #5292C1;
+          background-color: #4a4a4a;
           display: block;
           position: absolute;
-          width: 1px;
+          width: 0.8px;
           height: 12px;
           margin: auto;
           left: 0;
@@ -140,7 +140,7 @@ AlurakutMenu.Wrapper = styled.header`
     }
     input {
       color: #ffffff;
-      background: #5579A1;
+      background: #4a4a4a;
       padding: 10px 42px;
       border: 0;
       background-image: url(${`${BASE_URL}/icons/search.svg`});
@@ -156,7 +156,7 @@ AlurakutMenu.Wrapper = styled.header`
   }
 `;
 AlurakutMenu.Logo = styled.img`
-  background-color: #ffffff;
+  background-color: whitesmoke;
   padding: 9px 14px;
   border-radius: 1000px;
   height: 34px;
